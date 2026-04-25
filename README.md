@@ -8,7 +8,7 @@
 
 VAPT-AI is a cybersecurity project that automates **Vulnerability Assessment and Penetration Testing (VAPT)** using AI-driven analysis.
 
-It performs reconnaissance, scans for vulnerabilities, and provides **intelligent insights, remediation suggestions, and reports** through an interactive web interface.
+It performs reconnaissance, scans for vulnerabilities, and provides intelligent insights, remediation suggestions, and reports through an interactive web interface.
 
 ---
 
@@ -38,26 +38,26 @@ It performs reconnaissance, scans for vulnerabilities, and provides **intelligen
 
 **Backend:** Python, Flask, SQLite
 **Frontend:** React (Vite), Axios, Recharts
-**AI Integration:** Google Generative AI (Gemini API)
+**AI:** Google Generative AI (Gemini API)
 
 ---
 
 ## 📁 Project Structure
 
-```
-backend/        # Flask backend (scanning, AI, APIs)
-frontend/       # React frontend (dashboard UI)
-Dockerfile      # Container configuration
+```bash
+backend/        # Flask backend
+frontend/       # React frontend
+Dockerfile
 requirements.txt
-netlify.toml    # Frontend deployment config
-render.yaml     # Backend deployment config
+netlify.toml
+render.yaml
 ```
 
 ---
 
 ## ⚙️ Installation & Setup
 
-### 🔹 1. Clone Repository
+### 🔹 Clone Repository
 
 ```bash
 git clone https://github.com/KavirajJaiman/VAPT-AI-major-project.git
@@ -66,7 +66,7 @@ cd VAPT-AI-major-project
 
 ---
 
-### 🔹 2. Backend Setup
+### 🔹 Backend Setup
 
 ```bash
 python -m venv venv
@@ -82,9 +82,9 @@ pip install -r requirements.txt
 
 ---
 
-### 🔹 3. Configure Environment
+### 🔹 Configure Environment
 
-Create a `.env` file inside `backend/`:
+Create `.env` inside `backend/`:
 
 ```
 GEMINI_API_KEY=your_api_key_here
@@ -93,7 +93,7 @@ GEMINI_MODEL=gemini-2.5-flash
 
 ---
 
-### 🔹 4. Run Backend
+### 🔹 Run Backend
 
 ```bash
 cd backend
@@ -102,7 +102,7 @@ python app.py
 
 ---
 
-### 🔹 5. Run Frontend
+### 🔹 Run Frontend
 
 ```bash
 cd frontend
