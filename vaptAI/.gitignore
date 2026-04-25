@@ -1,4 +1,4 @@
-# Virtual Environments
+git rm --cached backend/vapt_data.db# Virtual Environments
 .venv/
 .venv-1/
 venv/
